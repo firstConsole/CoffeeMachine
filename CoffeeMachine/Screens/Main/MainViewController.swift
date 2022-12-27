@@ -79,7 +79,6 @@ final class MainViewController: UIViewController {
         print(ice)
     }
     
-    
     @IBAction func creamSegment(_ sender: UISegmentedControl) {
         switch self.creamSegmentControll {
         case .none:
@@ -92,11 +91,9 @@ final class MainViewController: UIViewController {
     }
     
     @IBAction func doCoffee(_ sender: UIButton) {
-        
         let coffeeCup = CoffeeCup(base: simpleCoffee)
         let finalCost = coffeeCup.cost
         
         costLabel.text = String(finalCost)
-        
     }
 }
