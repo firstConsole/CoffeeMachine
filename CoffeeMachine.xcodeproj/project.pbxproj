@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		BBC9CDB92958A294006D865B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC9CDB82958A294006D865B /* AppDelegate.swift */; };
 		BBC9CDBB2958A294006D865B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC9CDBA2958A294006D865B /* SceneDelegate.swift */; };
-		BBC9CDBD2958A294006D865B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC9CDBC2958A294006D865B /* ViewController.swift */; };
 		BBC9CDC02958A294006D865B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC9CDBE2958A294006D865B /* Main.storyboard */; };
 		BBC9CDC22958A296006D865B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC9CDC12958A296006D865B /* Assets.xcassets */; };
 		BBC9CDC52958A296006D865B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC9CDC32958A296006D865B /* LaunchScreen.storyboard */; };
+		BBC9CDD12958A2E4006D865B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC9CDD02958A2E3006D865B /* MainViewController.swift */; };
+		BBC9CDD42958A56F006D865B /* SimpleCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC9CDD32958A56F006D865B /* SimpleCoffee.swift */; };
+		BBC9CDD62958A5BB006D865B /* CoffeeDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC9CDD52958A5BB006D865B /* CoffeeDecorator.swift */; };
+		BBC9CDD82958B0BC006D865B /* StepperConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC9CDD72958B0BC006D865B /* StepperConfigure.swift */; };
+		BBC9CDDA2958BC11006D865B /* CalculateOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC9CDD92958BC11006D865B /* CalculateOrder.swift */; };
+		BBC9CDDC295B4CA3006D865B /* CoffeeCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC9CDDB295B4CA3006D865B /* CoffeeCup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BBC9CDB52958A294006D865B /* CoffeeMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC9CDB82958A294006D865B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBC9CDBA2958A294006D865B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BBC9CDBC2958A294006D865B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBC9CDBF2958A294006D865B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBC9CDC12958A296006D865B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBC9CDC42958A296006D865B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBC9CDC62958A296006D865B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC9CDD02958A2E3006D865B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BBC9CDD32958A56F006D865B /* SimpleCoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCoffee.swift; sourceTree = "<group>"; };
+		BBC9CDD52958A5BB006D865B /* CoffeeDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDecorator.swift; sourceTree = "<group>"; };
+		BBC9CDD72958B0BC006D865B /* StepperConfigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperConfigure.swift; sourceTree = "<group>"; };
+		BBC9CDD92958BC11006D865B /* CalculateOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateOrder.swift; sourceTree = "<group>"; };
+		BBC9CDDB295B4CA3006D865B /* CoffeeCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,60 @@
 		BBC9CDB72958A294006D865B /* CoffeeMachine */ = {
 			isa = PBXGroup;
 			children = (
-				BBC9CDB82958A294006D865B /* AppDelegate.swift */,
-				BBC9CDBA2958A294006D865B /* SceneDelegate.swift */,
-				BBC9CDBC2958A294006D865B /* ViewController.swift */,
-				BBC9CDBE2958A294006D865B /* Main.storyboard */,
-				BBC9CDC12958A296006D865B /* Assets.xcassets */,
-				BBC9CDC32958A296006D865B /* LaunchScreen.storyboard */,
+				BBC9CDCD2958A2AE006D865B /* UI */,
+				BBC9CDCC2958A29E006D865B /* App */,
+				BBC9CDCE2958A2BC006D865B /* Screens */,
+				BBC9CDD22958A550006D865B /* Model */,
 				BBC9CDC62958A296006D865B /* Info.plist */,
 			);
 			path = CoffeeMachine;
+			sourceTree = "<group>";
+		};
+		BBC9CDCC2958A29E006D865B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BBC9CDB82958A294006D865B /* AppDelegate.swift */,
+				BBC9CDBA2958A294006D865B /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BBC9CDCD2958A2AE006D865B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BBC9CDBE2958A294006D865B /* Main.storyboard */,
+				BBC9CDC12958A296006D865B /* Assets.xcassets */,
+				BBC9CDC32958A296006D865B /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BBC9CDCE2958A2BC006D865B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BBC9CDCF2958A2CF006D865B /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BBC9CDCF2958A2CF006D865B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BBC9CDD02958A2E3006D865B /* MainViewController.swift */,
+				BBC9CDD72958B0BC006D865B /* StepperConfigure.swift */,
+				BBC9CDD92958BC11006D865B /* CalculateOrder.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BBC9CDD22958A550006D865B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBC9CDD32958A56F006D865B /* SimpleCoffee.swift */,
+				BBC9CDD52958A5BB006D865B /* CoffeeDecorator.swift */,
+				BBC9CDDB295B4CA3006D865B /* CoffeeCup.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBC9CDBD2958A294006D865B /* ViewController.swift in Sources */,
+				BBC9CDD12958A2E4006D865B /* MainViewController.swift in Sources */,
 				BBC9CDB92958A294006D865B /* AppDelegate.swift in Sources */,
+				BBC9CDDA2958BC11006D865B /* CalculateOrder.swift in Sources */,
 				BBC9CDBB2958A294006D865B /* SceneDelegate.swift in Sources */,
+				BBC9CDD62958A5BB006D865B /* CoffeeDecorator.swift in Sources */,
+				BBC9CDD82958B0BC006D865B /* StepperConfigure.swift in Sources */,
+				BBC9CDD42958A56F006D865B /* SimpleCoffee.swift in Sources */,
+				BBC9CDDC295B4CA3006D865B /* CoffeeCup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
